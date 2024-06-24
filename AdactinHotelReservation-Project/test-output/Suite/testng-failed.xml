@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.adactinhotelapp.qa.test.LoginPageTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="loginTest"/>
+          <include name="setFileName"/>
+        </methods>
+      </class> <!-- com.adactinhotelapp.qa.test.LoginPageTest -->
+      <class name="com.adactinhotelapp.qa.test.SelectHotelPageTest">
+        <methods>
+          <include name="selectHotelTest"/>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="setFileName"/>
+        </methods>
+      </class> <!-- com.adactinhotelapp.qa.test.SelectHotelPageTest -->
+      <class name="com.adactinhotelapp.qa.test.BookingConfirmationPageTest">
+        <methods>
+          <include name="BookingConfirmationTest"/>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="setFileName"/>
+        </methods>
+      </class> <!-- com.adactinhotelapp.qa.test.BookingConfirmationPageTest -->
+      <class name="com.adactinhotelapp.qa.test.SearchHotelPageTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="searchHotelTest"/>
+          <include name="startApp"/>
+          <include name="setFileName"/>
+        </methods>
+      </class> <!-- com.adactinhotelapp.qa.test.SearchHotelPageTest -->
+      <class name="com.adactinhotelapp.qa.test.BookAHotelPageTest">
+        <methods>
+          <include name="BookAHotelTest"/>
+          <include name="closeApp"/>
+          <include name="startApp"/>
+          <include name="setFileName"/>
+        </methods>
+      </class> <!-- com.adactinhotelapp.qa.test.BookAHotelPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
